@@ -14,7 +14,7 @@ document.querySelector('.add-button').addEventListener('click',function(){
 
         listItem.innerHTML=
         `
-        ${text}<button class="delete-btn delete">DELETE</button>`;
+        ${text}<button class="delete-btn delete bg-orange-400 rounded my-2 mx-20">DELETE</button>`;
         document.querySelector('.list').appendChild(listItem)
 
         const deleteButtons=listItem.querySelector('.delete');

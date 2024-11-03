@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculator</title>
+</head>
+<body class="flex bg-black text-white items-center justify-center h-screen">
+    <div class="bg-gray-600 rounded-lg shadow-lg p-4 w-80 mx-auto">
+        <div class="mb-4">
+            <input type="text" id="opedisplay" class="w-full h-12 text-right text-xl text-white bg-gray-400 rounded-t-lg p-2" readonly>
+            <input type="text" id="display" class="w-full h-12 text-right text-xl text-white bg-gray-400 rounded-b-lg p-2" readonly>
+        </div>
+        <table class="w-full">
+            <tbody>
+                <!-- First Row with Clear, Percent, Divide, and Multiply -->
+                <tr>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-14 m-1 rounded">C</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-14 m-1 rounded">%</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-14 m-1 rounded">/</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-14 m-1 rounded">*</button></td>
+                </tr>
+                <!-- Second Row with 7, 8, 9, and Subtract -->
+                <tr>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">7</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">8</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">9</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">-</button></td>
+                </tr>
+                <!-- Third Row with 4, 5, 6, and Add -->
+                <tr>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">4</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">5</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">6</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">+</button></td>
+                </tr>
+                <!-- Fourth Row with 1, 2, 3, and Equals button spanning two rows -->
+                <tr>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">1</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">2</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">3</button></td>
+                    <td class="text-center" rowspan="2"><button class="key w-full bg-green-700 h-28 m-1 rounded">=</button></td>
+                </tr>
+                <!-- Fifth Row with 00, 0, and Decimal -->
+                <tr>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">00</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">0</button></td>
+                    <td class="text-center"><button class="key w-full bg-green-700 h-12 m-1 rounded">.</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

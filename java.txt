@@ -1,0 +1,31 @@
+1. To-Do List
+Description: Create a simple to-do list where users can add, delete, and mark tasks as complete.
+Skills Practiced: DOM manipulation, event handling, arrays, and basic CSS for styling.
+2. Calculator
+Description: Build a basic calculator with addition, subtraction, multiplication, and division functions.
+Skills Practiced: JavaScript math functions, handling click events, and designing a simple UI.
+3. Digital Clock
+Description: Display the current time in HH:MM
+format with an AM/PM indicator.
+Skills Practiced: Working with JavaScript’s Date object, updating the UI in real-time.
+4. Weather App
+Description: Create an app that fetches weather data for a specific location using a weather API.
+Skills Practiced: Working with APIs, fetch function, JSON data handling, and conditional rendering.
+5. Countdown Timer
+Description: Set a timer that counts down from a specified time to zero.
+Skills Practiced: JavaScript intervals, DOM manipulation, and handling time-based updates.
+6. Quiz App
+Description: Create a basic multiple-choice quiz with a set of questions and show the user’s score at the end.
+Skills Practiced: Arrays, loops, conditional statements, and DOM manipulation.
+7. Random Quote Generator
+Description: Display a random quote each time the user clicks a button. You can use an API or a predefined list of quotes.
+Skills Practiced: Randomization, arrays, event handling, and potentially working with APIs.
+8. Color Picker
+Description: Create a tool that lets users select a color and then displays it along with its hex or RGB values.
+Skills Practiced: Event handling, DOM manipulation, CSS styling, and hexadecimal color conversion.
+9. Drum Kit
+Description: Build a virtual drum kit that plays sounds when users click on different drum elements or press specific keys.
+Skills Practiced: Working with keyboard events, adding audio in JavaScript, and styling for interaction feedback.
+10. Simple Form Validation
+Description: Create a form that validates user inputs (like checking if email or password fields are correctly filled).
+Skills Practiced: Working with form inputs, validation, and error messages.
